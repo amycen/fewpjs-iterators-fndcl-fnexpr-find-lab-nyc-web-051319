@@ -1,3 +1,3 @@
 function superbowlWin(array) {
-  array.find(function(record) {return record.result === "W"}).year
+  array.find(function(record){return record.result==='W'}).year
 }
