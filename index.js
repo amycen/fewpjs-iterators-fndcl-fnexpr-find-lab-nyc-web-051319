@@ -1,3 +1,5 @@
 function superbowlWin(records) {
-  return records.find(function(record){return record.result==='W'}).year
+  let found_record = records.find(function(record){return record.result==='W'})
+  if found_record
+    return found_record.year
 }
